@@ -56,7 +56,7 @@ const publicaciones = ref([
     <h2>Iteración 3.</h2>
     <div>
       <p v-if="mostrarElemento">Hola, el elemento es True!!!</p>
-      <p v-else>Hola, el elemento es falso!!! Si fuese true se mostraría otro mensaje!!!</p>
+      <p v-else>Hola, el elemento es falso!</p>
     </div>
 
     <h2>Iteración 4.</h2>
@@ -75,20 +75,5 @@ const publicaciones = ref([
 </template>
 
 <style scoped>
-/* Estilo del botón */
-.boton {
-  background-color: greenyellow;
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-}
 
-.style {
-  width: 350px;
-  margin-left: 10px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
 </style>
